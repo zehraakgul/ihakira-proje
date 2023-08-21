@@ -10,7 +10,7 @@ Synclify icon
 *.pyc
 __pycache__/
 local_settings.py
-db.sqlite3
+ihakira_db
 db.sqlite3-journal
 media
 
