@@ -40,7 +40,7 @@ class Iha(models.Model):
     color = models.CharField(max_length=100)
     condition = models.CharField(max_length=100)
     price = models.CharField(max_length=100)
-    description = RichTextField(max_length=500)
+    description = RichTextField(max_length=2000)
     iha_foto = models.ImageField(upload_to='photos/%Y/%m/%d/')
     iha_foto_1 = models.ImageField(upload_to='photos/%Y/%m/%d/',blank=True)
     iha_foto_2 = models.ImageField(upload_to='photos/%Y/%m/%d/',blank=True)

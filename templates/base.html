@@ -52,8 +52,8 @@
 <!-- Full Page Search -->
 <div id="full-page-search">
     <button type="button" class="close">×</button>
-    <form action="https://storage.googleapis.com/theme-vessel/carhouse/index.html#" class="search-header">
-        <input type="search" value="" placeholder="Anahtar kelimeleri girin..." />
+    <form action="{% url 'search' %}" class="search-header">
+        <input type="search" value="" placeholder="Anahtar kelimeleri girin..." name='keyword' />
         <button type="submit" class="btn btn-sm button-theme">Arayın</button>
     </form>
 </div>
